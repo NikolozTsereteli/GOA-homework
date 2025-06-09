@@ -5,7 +5,3 @@ Number = int(input("Enter a number here: "))
 for i in range(1, Number + 1):
     if i != 5:
         print(i)
-    
-
-
-

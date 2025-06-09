@@ -2,5 +2,5 @@
 
 
 x = int(input("Enter your number here: "))
-for i in range (x, 1, -2):
+for i in range (x, 0, -2):
     print(i)

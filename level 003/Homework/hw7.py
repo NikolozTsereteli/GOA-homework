@@ -4,8 +4,3 @@
 Number = int(input("Enter your number here: "))
 for i in range(1, Number):
     print(-i)
-
-
-
-
-
