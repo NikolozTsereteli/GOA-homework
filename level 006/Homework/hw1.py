@@ -24,6 +24,7 @@ balance = -25.6
 name = "Nika"
 message = "Hello world!"
 char = "A"
+number = "7"
 
 # 4. bool (ლოგიკური ტიპი)
 

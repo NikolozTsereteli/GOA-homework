@@ -17,13 +17,14 @@ if age > 18 and name == "Nika":
 # or ოპერატორი აბრუნებს True-ს, მაშინაც კი, როდესაც მხოლოდ ერთი პირობაა True
 # მხოლოდ მაშინ აბრუნებს False-ს, როდესაც ორივე პირობაა False
 
-# მაგალითი
+# მაგალითი:
 
 age = 16
 name = "Nika"
 
 if age > 18 or name == "Nika":
     print("Either you are an adult, or your name is Nika(or both)")
+
 # დაიბეჭდება, რადგან ერთი პირობა მაინც არის სწორი (name == "Nika")
 
 
