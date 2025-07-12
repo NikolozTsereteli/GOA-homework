@@ -4,7 +4,7 @@
 listt = ["Nika", "Dato", "Ana", "Kato", "Kaxi", "Merabi", "Andria"]
 print(listt.pop(3))
 print(listt.append("Irakli"))
-print(listt.index(5))
+print(listt)
 print(len(listt))
 print(listt.remove("Andria"))
 
