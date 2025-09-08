@@ -1,0 +1,112 @@
+<!-- შექმენი singlepage website,ამ ვებსაიტზე უნდა გქონდეს პირველ რიგში დალაგებული წყობა, ანუ header main და footer,header ში უნდა გქონდეს ნავიგაცაი რისი დახმარებითაც უნდა შეძლოს მომხმარებელმა რომ გადავიდეს კონკრეტულ მონაკვეთზე,გასტილეთ ნაციგაციაში მყოფი ელემენტები ლამაზად style ატრიბუტის გამოყენებით,რაც შეეხება manin ს და საიტის თემატიკას უნდა იყოს ტანსაცმლის მაღაზია,საიტზე უნდა გქონდეთ წარმოდგენილი 5 მდე პროდუქტი რომელიც უნდა დაყოტ რათქმაუნდა section ებად ან div ებად,თითოეული ტანსაცმლის ინფორმაცია ცალკე სექციებში უნდა გქონეეთ მოთავსებული,რაც შეეეხება თვითონ სექციას,თითეულ სექციაში უნდა გქონდეთ სათაური რომელშიც ეწერება ამ პროდუქტის დასახელება,სათაურის ქვემოთ უნდა გქონდეთ ამ პროდუქტის ფასი,სათაურს გაუზარდეთ ზომა და შეუცვალეთ ფერი,რაც შეეხება ფასს უნდა იყოს სათაურზე პატარა ზომის მაგრამ უნდა იყოს მუქი და წითელი ფერის,ამ ფასის ქვევით უნდა გქონდეთ განლაგებული 3 სურათი ამ კონკრეტულ პროდუქტზე(ანუ თთ პროდუქტზე სამ სამი ფოტო)რომლებსაც შეუცვლით ზომას შესაბამის ნასწავლი ატრიბუტების გამოყენებით,ამ ფოტოების ქვემოთ უნდა გქონდეთ მოკლე აღწერა ამ პროდუქტის შესახებ რომელსაც ექნება განსხვავებული ფერი და ზომა,თუ ამ აღწერაში რაიმე მნიშვნელოვან ტექსტს შეიყვანთ ასეთ ტექსტს გაუკეთეთ border ,ამ აღწერის ქვემოთ უნდა გქონდეთ 2 ღილაკი,1 ღილაკი უნდა იყოს buy now რომელიც უნდა იყოს მწვანე ფერის და მასში მყოფიტექსტი უნდა იყოს წითელი ფერის,ბორდერი კი შავი ფერის,მეორე ღლაკი კი უნდა იყოს ლინკზე გადასასვლელიღილაკი რომელიც გადაგიყვანთ ამ პროდუქტის შესახებ სხვა ვებსაიტზე,ამ მეორე ღილაკის ფერი უნდა იყოს წითელი ,მასში მყოფი ტქექსტი უნდა იყოს თეთრი და ბბორდერი უნდა ქონდეს იასამნისფერი,რაც შეეხება footer ს, footer ში უნდა გაააკეთოთ სარეგისტრაციო ფორმა სადაც მომხამრებელს მოსთხოვთ მის სახელს ემაილს პაროლს და ტელეფონის ნომერს ,შეცვალეთ ამ ფორმების ბექგრაუნდ ფერები ლამაზად,ასევე დააამატეთ placehodler ლეიბლების მაგივრად,და ბოლოში უნდა გქონდეთ დადასტურების ღილაკი,ამ footer ში ასევე უნდა გქონდეთ ზუსტად იგივე ნავიგაციის მენიუ რომელიცაიყვანს მომხამრებელს მისთვის სასურველ პრიდუქციაზე რომ ზემოთ სქროლვა არ მო
+უწიოს -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#Sweater">Sweater</a>
+            <a href="#Jeans">Jeans</a>
+            <a href="#Dress">Dress</a>
+            <a href="#T-Shirt">T-Shirt</a>
+            <a href="#Hat">Hat</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Sweater">
+            <h2 style="font-size: 30; color: chocolate;">Sweater</h2>
+            <p style="font-size: 20; color: darkred;">Costs: 123$</p><br><br>
+            <img src="SWEATER2.jpg" alt="Oops, something went wrong!" width="300">
+            <img src="SWEATER3.webp" alt="Oops, something went wrong!" width="340">
+            <img src="SWEATER4.webp" alt="Oops, something went wrong!" width="340">
+            <br><br>
+            <p>
+                A sweater is a knitted garment, usually with long sleeves, worn on the <b style="border: solid green 3px;">upper body to provide warmth.</b> It can be made from <i style="border: solid blue 2px;">wool, cotton, or synthetic fibers,</i> and comes in styles like pullovers or cardigans (which open at the front). Sweaters are commonly worn in cool or cold weather, <strong style="border: solid yellow 2px;"><u>both for comfort and fashion.</u></strong>
+            </p>
+            <button style="background-color: greenyellow; color: red; border: solid black 6px;">Buy now</button><br><br>
+            <a href="https://www.sweatershop.com/?gad_source=1&gad_campaignid=17381850391&gclid=CjwKCAjwt-_FBhBzEiwA7QEqyOy7WBYohiP_JcwekL7UtkLO1ha6v6Em089kDp2Jk45aoT0i0iGPJRoCyWYQAvD_BwE"><button style="background-color: red; color: white; border: solid purple 6px;">Sales</button></a>
+        </section>
+        <section id="Jeans">
+            <h2 style="font-size: 30; color: aqua;">Jeans</h2>
+            <p style="font-size: 20; color: yellow;">Costs: 78$</p><br><br>
+            <img src="JEANS2.jpg" alt="Oops, something went wrong!" width="300">
+            <img src="JEANS3.jpg" alt="Oops, something went wrong!" width="375">
+            <img src="JEANS4.avif" alt="Oops, something went wrong!" width="269">
+            <br><br>
+            <p>
+                Jeans are durable pants made from denim or similar sturdy fabric, <i style="border: solid red 2px;">originally designed as workwear.</i> They come in various styles <u style="border: solid blue 2px;">(skinny, straight, bootcut, etc.)</u>, colors, and washes, <strong style="border: solid pink 2px;"><i>and are now a staple of casual and everyday fashion worldwide.</i></strong>
+            </p>
+            <button style="background-color: greenyellow; color: red; border: solid black 6px;">Buy now</button><br><br>
+            <a href="https://dressup.ge/en/1520-jeans?srsltid=AfmBOopgrZirPRK7pq3JtCeg3J3hmYGWtxH0ec7S3gLYfmwWh8cH35Pw"><button style="background-color: red; color: white; border: solid purple 6px;">Sales</button></a>
+        </section>
+        <section id="Dress">
+            <h2 style="font-size: 30; color: darkmagenta;">Dress</h2>
+            <p style="font-size: 20; color: blue;">Costs: 345$</p><br><br>
+            <img src="DRESS.avif" alt="Oops, something went wrong!" width="300">
+            <img src="DRESS2.avif" alt="Oops, something went wrong!" width="300">
+            <img src="DRESS3.avif" alt="Oops, something went wrong!" width="300">
+            <br><br>
+            <p>
+                <b style="border: solid purple 2px;">A dress is a one-piece garment for women or girls that covers the body and extends down over the legs.</b> <i style="border: solid darkcyan 2px;">Dresses come in many styles, lengths, and fabrics, ranging from casual everyday wear to formal evening gowns.</i> They are often chosen for their <strong style="border: solid greenyellow 2px;"><u>elegance, versatility, and comfort.</u></strong>
+            </p>
+            <button style="background-color: greenyellow; color: red; border: solid black 6px;">Buy now</button><br><br>
+            <a href="https://dressup.ge/ka"><button style="background-color: red; color: white; border: solid purple 6px;">Sales</button></a>
+        </section>
+        <section id="T-Shirt">
+            <h2 style="font-size: 30; color: orangered;">T-shirts</h2>
+            <p style="font-size: 20; color: blueviolet;">Costs: 120$</p><br><br>
+            <img src="T-SHIRT.jpg" alt="Oops, something went wrong!" width="300">
+            <img src="T-SHIRT2.jpg" alt="Oops, something went wrong!" width="356">
+            <img src="T-SHIRT3.avif" alt="Oops, something went wrong!" width="280">
+            <br><br>
+            <p>
+                <strong style="border: solid paleturquoise 2px;">A T-shirt is a casual, short-sleeved shirt usually made of cotton or a cotton blend.</strong> It gets its name from its T-shaped design and <i style="border: solid yellow 2px;">is typically lightweight, comfortable, and easy to wear.</i> T-shirts come in many colors, prints, and styles, <b style="border: solid burlywood 2px;"><u>making them one of the most common and versatile pieces of clothing worldwide.</u></b>
+            </p>
+            <button style="background-color: greenyellow; color: red; border: solid black 6px;">Buy now</button><br><br>
+            <a href="https://shirtstore.eu"><button style="background-color: red; color: white; border: solid purple 6px;">Sales</button></a>
+        </section>
+        <section id="Hat">
+            <h2 style="font-size: 30; color: blue;">Hats</h2>
+            <p style="font-size: 20; color: green;">Costs: 46$</p><br><br>
+            <img src="HAT1.webp" alt="Oops, something went wrong!" width="250">
+            <img src="HATS2.avif" alt="Oops, something went wrong!" width="370">
+            <img src="HAT3.jpg" alt="Oops, something went wrong!" width="390">
+            <br><br>
+            <p>
+                A hat is a <b style="border: solid red 2px;">head covering worn for protection, style, or tradition.</b> Hats can <i style="border: solid goldenrod 2px;">shield from the sun, provide warmth, or serve as fashion statements.</i> They come in many types, <em style="border: solid green 2px;"><strong>such as baseball caps, beanies, fedoras, and sunhats, each suited for different occasions and purposes.</strong></em>
+            </p>
+            <button style="background-color: greenyellow; color: red; border: solid black 6px;">Buy now</button><br><br>
+            <a href="https://montecuadorhats.com/panama-hats/panama-hats-montecristi/?gad_source=1&gad_campaignid=22981285097&gclid=CjwKCAjwt-_FBhBzEiwA7QEqyHVHg1-H-2sUdV0IHV3gHu-PPUgvfNHIOBKELXeaD6SsGiV3pehtKxoCyVgQAvD_BwE"><button style="background-color: red; color: white; border: solid purple 6px;">Sales</button></a><br><br>
+        </section>
+    </main>
+    <footer>
+        <form>
+            <label for="Name">Name:</label>
+            <input type="text" id="Name" placeholder="Write your name" style="background-color: aqua;"><br>
+            <label for="Email">Email:</label>
+            <input type="email" id="Email" placeholder="Write your email" style="background-color: aquamarine;"><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Write your password" style="background-color: blueviolet;"><br>
+            <label for="number">Phone Number:</label>
+            <input type="tel" id="number" placeholder="Write your phone number" style="background-color: cyan;"><br>
+            <input type="submit" style="background-color: aqua;">
+
+        </form>
+        <br><br><br>
+        <nav>
+            <a href="#Sweater">Sweater</a>
+            <a href="#Jeans">Jeans</a>
+            <a href="#Dress">Dress</a>
+            <a href="#T-Shirt">T-Shirt</a>
+            <a href="#Hat">Hat</a>
+        </nav>
+    </footer>
+</body>
+</html>
