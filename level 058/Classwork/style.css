@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.N{
+    color: blue;
+}
+
+.N:hover{
+    color: aqua;
+}
+
+.N:active{
+    color: blueviolet;
+}
+
+.M{
+    color: Red;
+}
+
+.M:hover{
+    color: yellow;
+}
+
+.M:active{
+    color: grey;
+}
+
+.C{
+    color: green;
+}
+
+.C:hover{
+    color: pink;
+}
+
+.C:active{
+    color: purple;
+}
