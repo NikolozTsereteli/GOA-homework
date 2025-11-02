@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.CSS{
+    font-family: "Quicksand", sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+    color: rgb(255, 20, 147);
+    text-shadow: 5px 5px 2px blue;
+}
+
+.Greeks{
+    font-size: 50px;
+    font-weight: 400;
+    text-shadow: 8px 8px 2px greenyellow;
+}
+
+.Wash{
+    font-family: "Quicksand", sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(81, 0, 255);
+    text-shadow: 5px 5px 2px rgb(126, 0, 128);
+}

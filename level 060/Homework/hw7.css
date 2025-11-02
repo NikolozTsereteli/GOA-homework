@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#Epistemology{
+    text-transform: lowercase;
+    text-decoration: underline wavy green;
+}
+
+#Metaphysics{
+    text-transform: uppercase;
+    text-decoration: overline dotted blue;
+}
+
+#Ethics{
+    text-transform: capitalize;
+    text-decoration: overline underline double;
+}

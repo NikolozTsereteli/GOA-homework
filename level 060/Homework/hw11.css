@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p:hover{
+    font-size: 100px;
+    text-decoration: underline overline dotted red;
+    text-shadow: -5px -5px 2px red;
+}
