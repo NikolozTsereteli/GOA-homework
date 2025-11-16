@@ -1,0 +1,15 @@
+#bmw{
+    list-style-type: disc;
+}
+
+#merc{
+    list-style-type: none;
+}
+
+#audi{
+    list-style-type: circle;
+}
+
+#lam{
+    list-style-type: square;
+}

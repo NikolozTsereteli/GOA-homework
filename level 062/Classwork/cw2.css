@@ -1,0 +1,15 @@
+#First{
+    list-style-type: disc;
+}
+
+#Second{
+    list-style-type: square;
+}
+
+#Third{
+    list-style-type: circle;
+}
+
+#Forth{
+    list-style-type: None;
+}

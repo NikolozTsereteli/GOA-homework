@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 5px solid black;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(73, 189, 227);
+    color: red;
+}
+
+tr:nth-child(even){
+    background-color: red;
+    color: yellow;
+}
+
+td:nth-child(even){
+    color: purple;
+}
+
+

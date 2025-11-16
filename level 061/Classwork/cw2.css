@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:link{
+    color: red;
+    text-transform: uppercase;
+}
+
+a:visited{
+    text-shadow: 2px 2px 2px red;
+    background-color: red;
+    color: green;
+    text-decoration: overline dashed green;
+}
